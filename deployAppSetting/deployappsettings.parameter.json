@@ -3,10 +3,10 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "webpages:Enabled": {
-      "value": "false"
+      "value": null
     },
     "webSiteName": {
-      "value": "mydemodeployment"
+      "value": null
     }
   }
 }
