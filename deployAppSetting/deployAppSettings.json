@@ -5,7 +5,7 @@
     "webSiteName": {
       "type": "string"
     },
-    "webpages:Version": {
+    "webpages:Enabled": {
       "type": "bool"
     }
   },
@@ -27,7 +27,7 @@
             "[resourceId('Microsoft.Web/Sites/', parameters('webSiteName'))]"
           ],
           "properties": {
-            "webpages:Version": "[parameters('webpages:Version')]"
+            "webpages:Enabled": "[parameters('webpages:Enabled')]"
           }
         }
       ]
